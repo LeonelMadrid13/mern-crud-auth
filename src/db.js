@@ -1,10 +1,11 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
+import { MONGODB_URI } from './config.js';
 
 export const connectDB = async () => {
-    try {
-        await mongoose.connect('mongodb://127.0.0.1:27017/merndb')
-        console.log('>>> DB is connected');
-    } catch (error) {
-        console.log(error);
-    }
-}
+	try {
+		await mongoose.connect(MONGODB_URI);
+		console.log('MongoDB is connected');
+	} catch (error) {
+		console.error(error);
+	}
+};

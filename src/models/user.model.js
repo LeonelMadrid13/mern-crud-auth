@@ -10,7 +10,6 @@ const userSchema = new mongoose.Schema(
 		email: {
 			type: String,
 			required: true,
-			trim: true,
 			unique: true,
 		},
 		password: {
@@ -18,7 +17,9 @@ const userSchema = new mongoose.Schema(
 			required: true,
 		},
 	},
-	{ timestamps: true }
+	{
+		timestamps: true,
+	}
 );
 
 export default mongoose.model('User', userSchema);
