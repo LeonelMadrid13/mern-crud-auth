@@ -6,12 +6,7 @@ function HomePage() {
     <header className="bg-zinc-800 p-10">
       <h1 className="text-5xl py-2 font-bold">React Tasks</h1>
       <p className="text-md text-slate-400">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
-        fugit doloremque molestias recusandae labore repellat amet dicta tempore
-        necessitatibus facilis repellendus voluptas ducimus maiores deserunt sed
-        quo ratione provident debitis aut, voluptatem aliquam iste blanditiis
-        ex? Voluptatibus, fuga quasi necessitatibus cumque optio error enim,
-        officia accusantium vitae doloremque, molestias modi.
+        Organize your day, boost productivity, and conquer your to-do list with our powerful Task Manager built on React. Whether you're juggling personal projects or collaborating with a team, our intuitive interface and dynamic features will help you stay on top of it all.
       </p>
 
       <Link
